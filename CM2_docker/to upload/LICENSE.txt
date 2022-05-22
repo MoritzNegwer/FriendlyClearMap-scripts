@@ -1,0 +1,18 @@
+Copyright © Christoph Kirst (christoph.kirst.ck@gmail.com)
+
+The software is released under the GNU General Public License v3.0 (see LICENSE).
+
+If this software or any parts of it are used in any form please cite our 
+publications (see also CITATION):
+
+Kirst, et al. "Mapping the Fine-Scale Organization and Plasticity of the Brain Vasculature." 
+Cell 180.4 (2020): 780-795.
+https://doi.org/10.1016/j.cell.2020.01.028
+
+Renier et al. "Mapping of brain activity by automated volume analysis of immediate early genes."
+Cell 165.7 (2016): 1789-1802.
+https://doi.org/10.1016/j.cell.2016.05.007
+
+
+For other licensing options please contact Christoph Kirst:
+christoph.kirst.ck@gmail.com

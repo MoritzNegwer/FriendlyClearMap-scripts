@@ -1,0 +1,14 @@
+CURRENT:
+Linux:
+
+#link all files to the current working directory 
+cp -r /home/wirrbel/2021-02-23_docker_CM2/* /media/wirrbel/MN_3/m1/ && 
+docker run -it -v /media/wirrbel/MN_3/m1/:/CloudMap/Data friendly_clearmap:4.0
+
+
+OLD:
+#docker run -it -v /media/kwaakbuntu/Moritz_Negwer/VIP_docker/m3:/CkoudMap/Data friendly_clearmap:3.0 /bin/bash
+#conda run -n cm1 python /CloudMap/FriendlyClearmap/clearmap/ClearMap/Scripts/docker/process_Ilastik_template.py
+
+#windows
+#docker run -it -v E:\VIP_docker\m3:/CloudMap/Data friendly_clearmap:3.0 /bin/bash
