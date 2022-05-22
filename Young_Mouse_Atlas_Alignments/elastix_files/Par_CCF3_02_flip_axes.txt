@@ -1,0 +1,34 @@
+(Transform "AffineTransform")
+(NumberOfParameters 12)
+//(TransformParameters -1 0 0 0 0 1 0 1 0 450 0 0  )
+(TransformParameters -1 0 0 0 1 0 0 0 -1 450 0 300   )
+(InitialTransformParametersFileName "/home/wirrbel/2021-03-29_brainrender_2_preprocessing/elastix_files/Par_CCF3_01_flip_axes.txt")
+(HowToCombineTransforms "Compose")
+
+// Image specific
+(FixedImageDimension 3)
+(MovingImageDimension 3)
+(FixedInternalImagePixelType "float")
+(MovingInternalImagePixelType "float")
+(Size 450 300 650)
+(Index 0 0 0    )
+(Spacing 1.0000000000 1.0000000000 1.0000000000)
+(Origin 0 0 0    )
+(Direction 1.0000000000 0.0000000000 0.0000000000 0.0000000000 1.0000000000 0.0000000000 0.0000000000 0.0000000000 1.0000000000)
+(UseDirectionCosines "true")
+
+// AdvancedAffineTransform specific
+//(CenterOfRotationPoint 0 0 0   )
+//(CenterOfRotationPoint 0 325 0  )
+(CenterOfRotationPoint 0 0 0 )
+
+// ResampleInterpolator specific
+(ResampleInterpolator "FinalBSplineInterpolator")
+(FinalBSplineInterpolationOrder 3)
+
+// Resampler specific
+(Resampler "DefaultResampler")
+(DefaultPixelValue 0.000000)
+(ResultImageFormat "mhd")
+(ResultImagePixelType "short")
+(CompressResultImage "true")
