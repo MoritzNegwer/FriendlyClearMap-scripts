@@ -36,3 +36,7 @@ Other work used in this article:
 - Elastix: 
   Klein et al., 2010. elastix: a toolbox for intensity based medical image registration, IEEE Transactions on Medical Imaging, vol. 29, no. 1, pp. 196 - 205, January 2010. http://dx.doi.org/10.1109/TMI.2009.2035616
   Shamonin et al., 2014. Fast Parallel Image Registration on CPU and GPU for Diagnostic Classification of Alzheimer's Disease, Frontiers in Neuroinformatics, vol. 7, no. 50, pp. 1-15, January 2014. http://dx.doi.org/10.3389/fninf.2013.00050
+  
+  - Cortical Flatmap projections: Wang et al. 2020: The Allen Mouse Brain Common Coordinate Framework: A 3D Reference Atlas. Cell, Volume 181, Issue 4, 936 - 953.e20. https://doi.org/10.1016/j.cell.2020.04.007 
+https://ccf-streamlines.readthedocs.io/en/latest/guide.html
+https://github.com/AllenInstitute/ccf_streamlines
