@@ -1,0 +1,33 @@
+# Temporary Files
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
+.asv
+*rtf
+.ipynb_checkpoints
+
+# pyc files
+*.pyc
+*.pyxc
+*.pyxbldc
+
+
+# unzipped resources
+ClearMap/Resources/Atlas/*.tif
+ClearMap/ImageProcessing/Binary/*.npy
+ClearMap/ImageProcessing/Skeletonization/*.npy
+
+# test data
+ClearMap/Tests/Data/TubeMap_Example/*
+ClearMap/Tests/Data/CellMap_Example/*
+
+# documentation
+Documentation
+Documentation.zip

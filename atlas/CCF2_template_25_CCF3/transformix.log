@@ -1,0 +1,84 @@
+
+transformix is started at Fri Jan 20 02:15:24 2023.
+
+which transformix:   /usr/bin/transformix
+transformix runs at: Dataplatvis
+  Linux 5.15.0-57-generic (x64), #63-Ubuntu SMP Thu Nov 24 13:43:17 UTC 2022
+  with 63720 MB memory, and 6 cores @ 1400 MHz.
+Running transformix with parameter file "/home/wirrbel/2021-03-29_brainrender_2_preprocessing/elastix_files/Par_rotate90degaroundX_Clearmap1_v02.txt".
+
+Reading the elastix parameters from file ...
+
+Installing all components.
+InstallingComponents was successful.
+
+ELASTIX version: 5.0.1
+Command line options from ElastixBase:
+-in       /home/wirrbel/2021-03-29_brainrender_2_preprocessing/Kim_dev_atlas/CCF2_template_25.tif
+-out      /home/wirrbel/2021-03-29_brainrender_2_preprocessing/CCF2_template_25_CCF3/
+-threads  unspecified, so all available threads are used
+-tp       /home/wirrbel/2021-03-29_brainrender_2_preprocessing/elastix_files/Par_rotate90degaroundX_Clearmap1_v02.txt
+-def      unspecified, so no input points transformed
+-jac      unspecified, so no det(dT/dx) computed
+-jacmat   unspecified, so no dT/dx computed
+
+=============== start of ParameterFile: /home/wirrbel/2021-03-29_brainrender_2_preprocessing/elastix_files/Par_rotate90degaroundX_Clearmap1_v02.txt ===============
+(Transform "AffineTransform")
+(NumberOfParameters 12)
+(TransformParameters 1 0 0 0 1 0 0 0 1 0 0 0 )
+(InitialTransformParametersFileName "NoInitialTransform")
+(HowToCombineTransforms "Compose")
+
+// Image specific
+(FixedImageDimension 3)
+(MovingImageDimension 3)
+(FixedInternalImagePixelType "float")
+(MovingInternalImagePixelType "float")
+(Size 528 320 456 )
+(Index 0 0 0)
+(Spacing 1.0000000000 1.0000000000 1.0000000000)
+(Origin 320 0 0  )
+(Direction 0 1 0 -1 0 0 0 0 1)
+(UseDirectionCosines "true")
+
+// AdvancedAffineTransform specific
+(CenterOfRotationPoint  0 320 0  )
+//(CenterOfRotationPoint 0 325 0  )
+//(CenterOfRotationPoint 0 0 300   )
+
+// ResampleInterpolator specific
+(ResampleInterpolator "FinalBSplineInterpolator")
+(FinalBSplineInterpolationOrder 3)
+
+// Resampler specific
+(Resampler "DefaultResampler")
+(DefaultPixelValue 0.000000)
+(ResultImageFormat "tif")
+(ResultImagePixelType "short")
+(CompressResultImage "true")
+
+
+=============== end of ParameterFile: /home/wirrbel/2021-03-29_brainrender_2_preprocessing/elastix_files/Par_rotate90degaroundX_Clearmap1_v02.txt ===============
+
+
+Reading input image ...
+  Reading input image took 0.198422 s
+Calling all ReadFromFile()'s ...
+WARNING: The parameter "UseBinaryFormatForTransformationParameters", requested at entry number 0, does not exist at all.
+  The default value "false" is used instead.
+  Calling all ReadFromFile()'s took 0.000136 s
+Transforming points ...
+  The command-line option "-def" is not used, so no points are transformed
+  Transforming points done, it took 0.00s
+Compute determinant of spatial Jacobian ...
+  The command-line option "-jac" is not used, so no det(dT/dx) computed.
+  Computing determinant of spatial Jacobian done, it took 0.00s
+Compute spatial Jacobian (full matrix) ...
+  The command-line option "-jacmat" is not used, so no dT/dx computed.
+  Computing spatial Jacobian done, it took 0.00s
+Resampling image and writing to disk ...
+  Resampling took 7.21s
+
+transformix has finished at Fri Jan 20 02:15:31 2023.
+Total time elapsed: 7.4s.
+
