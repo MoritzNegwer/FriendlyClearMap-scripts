@@ -19,8 +19,11 @@ Code from: https://github.com/ChristophKirst/ClearMap2 and adapted the  CellMap 
   - Adapted for Dockerization
   - Included an adapted version of ClearMap1's Ilastik Cell Detection mode 
   
-Please see the Appendices 1-3 of our <X_upcoming> publication for detailed instructions on how to use the pipelines. 
-<X_protocols.io goes here> 
+Please see the Appendices 1-4 of our <X_upcoming> publication for detailed instructions on how to use the pipelines. 
+dx.doi.org/10.17504/protocols.io.eq2lynnkrvx9/v2
+dx.doi.org/10.17504/protocols.io.yxmvmn9pbg3p/v2
+dx.doi.org/10.17504/protocols.io.dm6gpbdwdlzp/v1 
+dx.doi.org/10.17504/protocols.io.36wgq77m5vk5/v1
 
 ---
 Other work used in this article: 
