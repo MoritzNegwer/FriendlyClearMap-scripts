@@ -1,7 +1,6 @@
 # FriendlyClearMap-scripts
 
-This is the collection of scripts to build your own Dockerfiles for ClearMap1 and ClearMap2's CellMap component, as outlined in: 
-<X_publication to come> 
+This is the collection of scripts to build your own Dockerfiles for ClearMap1 and ClearMap2's CellMap component, as outlined in our preprint: https://www.biorxiv.org/content/10.1101/2023.02.16.528882v1
 
 ClearMap 1 is as originally described in: 
 Renier et al. Cell 2016. Mapping of Brain Activity by Automated Volume Analysis of Immediate Early Genes. Cell, 165(7), 1789–1802. https://doi.org/10.1016/j.cell.2016.05.007
