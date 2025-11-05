@@ -22,21 +22,21 @@ Code from: https://github.com/ChristophKirst/ClearMap2 and adapted the  CellMap 
   - Included an adapted version of ClearMap1's Ilastik Cell Detection mode 
   
 Please see the Appendices 1-4 of our Gigascience publication for detailed instructions on how to use the pipelines. 
-dx.doi.org/10.17504/protocols.io.eq2lynnkrvx9/v2
-dx.doi.org/10.17504/protocols.io.yxmvmn9pbg3p/v2
-dx.doi.org/10.17504/protocols.io.dm6gpbdwdlzp/v1 
-dx.doi.org/10.17504/protocols.io.36wgq77m5vk5/v1
+- dx.doi.org/10.17504/protocols.io.eq2lynnkrvx9/v2
+- dx.doi.org/10.17504/protocols.io.yxmvmn9pbg3p/v2
+- dx.doi.org/10.17504/protocols.io.dm6gpbdwdlzp/v1 
+- dx.doi.org/10.17504/protocols.io.36wgq77m5vk5/v1
 
 All raw and processed data is available on GigaDB, linked to the GigaScience article. Please see here: https://doi.org/10.5524/102385
 
 Specifically, find the docker containers here: 
-https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/docker_containers.tar.gz
+- https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/docker_containers.tar.gz
 
 And the data here: 
-Parvalbumin P14: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_01-1_PV_P14.tar.gz
-Parvalbumin P56: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_01-2_PV_P56.tar.gz
-Somatostatin P28: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_02_SST_P28.tar.gz
-VIP P28: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_03_VIP_P28.tar.gz
+- Parvalbumin P14: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_01-1_PV_P14.tar.gz
+- Parvalbumin P56: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_01-2_PV_P56.tar.gz
+- Somatostatin P28: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_02_SST_P28.tar.gz
+- VIP P28: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_03_VIP_P28.tar.gz
 
 ---
 Other work used in this article: 
