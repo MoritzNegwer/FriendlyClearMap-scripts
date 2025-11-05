@@ -1,6 +1,9 @@
 # FriendlyClearMap-scripts
 
-This is the collection of scripts to build your own Dockerfiles for ClearMap1 and ClearMap2's CellMap component, as outlined in our preprint: https://www.biorxiv.org/content/10.1101/2023.02.16.528882v1
+This is the collection of scripts to build your own Dockerfiles for ClearMap1 and ClearMap2's CellMap component, as outlined in our 2022 GigaScience publication: 
+Negwer, M., Bosch, B., Bormann, M., Hesen, R., Lütje, L., Aarts, L., Rossing, C., Nadif Kasri, N., & Schubert, D. (2022). 
+FriendlyClearMap: an optimized toolkit for mouse brain mapping and analysis. GigaScience, 12. 
+https://doi.org/10.1093/gigascience/giad035 
 
 ClearMap 1 is as originally described in: 
 Renier et al. Cell 2016. Mapping of Brain Activity by Automated Volume Analysis of Immediate Early Genes. Cell, 165(7), 1789–1802. https://doi.org/10.1016/j.cell.2016.05.007
@@ -18,14 +21,22 @@ Code from: https://github.com/ChristophKirst/ClearMap2 and adapted the  CellMap 
   - Adapted for Dockerization
   - Included an adapted version of ClearMap1's Ilastik Cell Detection mode 
   
-Please see the Appendices 1-4 of our <X_upcoming> publication for detailed instructions on how to use the pipelines. 
+Please see the Appendices 1-4 of our Gigascience publication for detailed instructions on how to use the pipelines. 
 dx.doi.org/10.17504/protocols.io.eq2lynnkrvx9/v2
 dx.doi.org/10.17504/protocols.io.yxmvmn9pbg3p/v2
 dx.doi.org/10.17504/protocols.io.dm6gpbdwdlzp/v1 
 dx.doi.org/10.17504/protocols.io.36wgq77m5vk5/v1
 
-Data will be available upon publication. Until then, find the containers, install scripts and a proof-of-concept dataset on dropbox: 
-https://www.dropbox.com/sh/sa4v3w9l9v0bovy/AADV4pSOyrwmlE5ampR5enlma?dl=0
+All raw and processed data is available on GigaDB, linked to the GigaScience article. Please see here: https://doi.org/10.5524/102385
+
+Specifically, find the docker containers here: 
+https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/docker_containers.tar.gz
+
+And the data here: 
+Parvalbumin P14: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_01-1_PV_P14.tar.gz
+Parvalbumin P56: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_01-2_PV_P56.tar.gz
+Somatostatin P28: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_02_SST_P28.tar.gz
+VIP P28: https://s3.ap-northeast-1.wasabisys.com/gigadb-datasets/live/pub/10.5524/102001_103000/102385/dataset_03_VIP_P28.tar.gz
 
 ---
 Other work used in this article: 
